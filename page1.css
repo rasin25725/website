@@ -68,3 +68,17 @@ p {
     color: #2980b9;
     transform: scale(1.05);
 }
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.pop-up-image {
+    max-width: 43%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.pop-up-image:hover {
+    transform: scale(0.96); /* Adjust the scale factor as needed */
+}
