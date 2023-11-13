@@ -9,15 +9,18 @@
 <body>
     <div class="login-container">
         <h2>Login</h2>
-        <form action="login.php" method="POST">
+        <form id="loginform">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
             
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
             
-            <button type="submit" ><a style="text-decoration:none" href="page1.html">Login</a></button>
+           <p id="errorMessage" class="error-message"></p>
+            
+        <button type="button" onclick="login()">Login</button>
         </form>
     </div>
+    <script src="page1.js"></script>
 </body>
 </html>
