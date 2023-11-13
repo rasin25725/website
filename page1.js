@@ -5,6 +5,8 @@ function hoverNews(element) {
 function unhoverNews(element) {
     element.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
 }
+
+
 function login() {
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
